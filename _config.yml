@@ -39,7 +39,7 @@ avatar: "/img/sam_avatar.jpg"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Samantha Terrones
+  name:  
   email: "samterronesblog@gmail.com"
   facebook: "sam.terrones"  # eg. daattali
   github: samterrones    # eg. daattali
