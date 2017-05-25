@@ -24,7 +24,6 @@ description: Photography, Film, Miscellany
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Blog: "blog"
   Projects:
     - 505: "505"
   Photography:
