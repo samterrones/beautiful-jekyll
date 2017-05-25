@@ -1,21 +1,9 @@
 ---
 layout: page
-title: Samantha Terrones
-subtitle: Director, Producer, Photographer, Dreamer
-use-site-title: true
-bigimg:
-  - "/img/big0.jpg"
-  - "/img/big1.jpg"
-  - "/img/big2.jpg"
-  - "/img/big4.jpg"
-  - "/img/big6.jpg"
-  - "/img/big7.jpg"
-  - "/img/big8.jpg"
-  - "/img/big9.jpg"
-  - "/img/big10.jpg"
-  - "/img/big11.jpg"
-  - "/img/big12.jpg"
+title: Blog
+subtitle: Life and Art
 ---
+
 
 <div class="posts-list">
   {% for post in paginator.posts %}
