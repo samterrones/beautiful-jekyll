@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Samantha Terrone
+title: Samantha Terrones
 subtitle: Director, Producer, Photographer, Dreamer
 use-site-title: true
 bigimg:
@@ -20,7 +20,7 @@ bigimg:
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
-    <a href="{{ post.url | prepend: http://samterrones.github.io/blog/ }}">
+    <a href="{{ post.url | prepend: http://samterrones.github.io/blog }}">
 	  <h2 class="post-title">{{ post.title }}</h2>
 
 	  {% if post.subtitle %}
@@ -37,7 +37,7 @@ bigimg:
     <div class="post-entry-container">
       {% if post.image %}
       <div class="post-image">
-        <a href="{{ post.url | prepend: http://samterrones.github.io/blog/ }}">
+        <a href="{{ post.url | prepend: http://samterrones.github.io/blog }}">
           <img src="{{ post.image }}">
         </a>
       </div>
@@ -46,7 +46,7 @@ bigimg:
         {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
         {% assign excerpt_word_count = post.excerpt | number_of_words %}
         {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
-          <a href="{{ post.url | prepend: http://samterrones.github.io/blog/ }}" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="{{ post.url | prepend: http://samterrones.github.io/blog }}" class="post-read-more">[Read&nbsp;More]</a>
         {% endif %}
       </div>
     </div>
@@ -56,7 +56,7 @@ bigimg:
       Tags:
       {% if site.link-tags %}
       {% for tag in post.tags %}
-      <a href="{{ http://samterrones.github.io/blog/ }}/tag/{{ tag }}">{{ tag }}</a>
+      <a href="{{ http://samterrones.github.io/blog }}/tag/{{ tag }}">{{ tag }}</a>
       {% endfor %}
       {% else %}
         {{ post.tags | join: ", " }}
@@ -72,12 +72,12 @@ bigimg:
 <ul class="pager main-pager">
   {% if paginator.previous_page %}
   <li class="previous">
-    <a href="{{ paginator.previous_page_path | prepend: http://samterrones.github.io/blog/ | replace: '//', '/' }}">&larr; Newer Posts</a>
+    <a href="{{ paginator.previous_page_path | prepend: http://samterrones.github.io/blog | replace: '//', '/' }}">&larr; Newer Posts</a>
   </li>
   {% endif %}
   {% if paginator.next_page %}
   <li class="next">
-    <a href="{{ paginator.next_page_path | prepend: http://samterrones.github.io/blog/ | replace: '//', '/' }}">Older Posts &rarr;</a>
+    <a href="{{ paginator.next_page_path | prepend: http://samterrones.github.io/blog | replace: '//', '/' }}">Older Posts &rarr;</a>
   </li>
   {% endif %}
 </ul>
