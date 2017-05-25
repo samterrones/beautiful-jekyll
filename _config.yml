@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Samantha Terrones
+title: Perusing Things
 
 # Short description of your site
 description: Photographer, producer, director, dreamer
@@ -39,7 +39,7 @@ avatar: "/img/sam_avatar.jpg"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name:  
+  name:  "Samantha Terrones"
   email: "samterronesblog@gmail.com"
   facebook: "sam.terrones"  # eg. daattali
   github: samterrones    # eg. daattali
