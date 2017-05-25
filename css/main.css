@@ -2,10 +2,11 @@
 
 /* --- General --- */
 
+/* body color was #404040 */
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 18px;
-  color: #404040;
+  color: #36e2df;
   position: relative;
   background: #FFF;
 }
