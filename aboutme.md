@@ -2,6 +2,7 @@
 layout: page
 title: About Me
 subtitle: Who Am I?
+comments: true
 ---
 
 I am a Houston-based multimedia artist who wants to help __you__ with all your theatrical, cinematic, photographic, and otherwise creative endeavors.
