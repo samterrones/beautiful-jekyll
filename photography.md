@@ -3,12 +3,15 @@ title: Photography
 layout: page
 ---
 
-<style>
-.tablelines table, .tablelines td, .tablelines th {
-        border: 20px solid black;
-        }
-</style>
-
 A Photo | Another Photo | A Third Photo
 :---:|:---:|:---:
 ![](/img/hello_world.jpeg) | ![](/img/hello_world.jpeg) | ![](/img/hello_world.jpeg)
+
+<p float="left">
+  <img src="/img/hello_world.jpeg" width="200" />
+  <em>image_caption</em>
+  <img src="/img/hello_world.jpeg" width="200" /> 
+  <em>image_caption</em>
+  <img src="/img/hello_world.jpeg" width="200" />
+  <em>image_caption</em>
+</p>
