@@ -2,12 +2,21 @@
 layout: page
 ---
 
-<div class="container center">
-  <figure class="center">
-    <img src="{{ page.image-path }}" alt="{{ page.title }}" class="center" />
-    <figcaption class="center"> {{ page.description }} </figcaption>
-  </figure>
+<div class="container">
+  <div class="row">
+    <div class="span4"></div>
+      <div class="span4">
+        <figure>
+          <img src="{{ page.image-path }}" alt="{{ page.title }}"/>
+          <figcaption> {{ page.description }} </figcaption>
+        </figure>
+      </div>
+    <div class="span4"></div>
+  </div>
+</div>
 
+<div class="container">
+  
   {{ content }}
 
 </div>
