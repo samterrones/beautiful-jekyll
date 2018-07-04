@@ -27,7 +27,7 @@ images:
     <div class="pictureBox">
       <div class="innerBox">
         <img src="{{ image.image_path }}">
-        <div class="titleBox">"{{ image.title }}"</div>
+        <div class="titleBox">{{ image.title }}</div>
       </div>
     </div>
   {% endfor %}       
