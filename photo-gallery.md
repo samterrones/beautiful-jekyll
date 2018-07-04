@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Photography
 images:
   - image_path: /img/hello_world.jpeg
     title: Apple Pie
