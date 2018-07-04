@@ -766,3 +766,15 @@ td.gutter {
     padding-bottom: 25%;
     }
 }
+
+/* Photos */
+.photo-container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 2rem;
+}
+
+.photo {
+    margin: 4rem 0 4rem;
+    text-align: center;
+}
