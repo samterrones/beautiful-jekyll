@@ -1,13 +1,11 @@
 ---
 layout: page
 ---
-<div class="container">
 
-  <figure class="photo">
-    <img src="{{ page.path }}" alt="{{ page.title }}" />
-    <figcaption>{{ page.title }}</figcaption>
-  </figure>
-
-  {{ content }}
-
+<div class="pictureBox">
+  <div class="innerBox">
+    <img src="{{ page.path }}">
+    <div class="titleBox">{{ page.title }}</div>
+  </div>
+  <div><p> {{ page.description }} </p></div>
 </div>
