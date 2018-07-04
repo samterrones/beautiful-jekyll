@@ -7,7 +7,7 @@ title: Photography!
   {% for photo in site.photos %}
     <div class="pictureBox">
       <div class="innerBox">
-          <img src="{{ photo.path }}">
+          <img src="{{ photo.image-path }}">
           <div class="titleBox">{{ photo.title }}</div>
       </div>
     </div>
