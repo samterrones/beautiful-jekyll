@@ -1,6 +1,6 @@
 ---
-layout: simple
-title: Photography!
+layout: page
+title: Photography
 ---
 
 <div class="galleryWrap">
