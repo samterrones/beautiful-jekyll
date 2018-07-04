@@ -20,3 +20,14 @@ images:
   - image_path: /img/hello_world.jpeg
     title: Lemon Cake
 ---
+
+<div class="galleryWrap">
+  {% for image in page.images %}
+    <div class="pictureBox">
+      <div class="innerBox">
+        <img src="{{ image.image_path }}">
+        <div class="titleBox">"{{ image.title }}"</div>
+      </div>
+    </div>
+  {% endfor %}       
+</div>
