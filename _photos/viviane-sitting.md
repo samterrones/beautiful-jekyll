@@ -1,6 +1,6 @@
 ---
 layout: photo
 title: "Portrait: Vivane Nguyen"
-image-path: /img/vivane-sitting.JPG
+image-path: /img/viviane-sitting.JPG
 description: place-holder
 ---
