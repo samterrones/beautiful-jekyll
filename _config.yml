@@ -23,7 +23,6 @@ description: ""
 
 # List of links in the navigation bar
 navbar-links:
-  Home: "https://samterrones.github.io/"
   About Me: "aboutme"
   Projects:
     - 505: "505"
